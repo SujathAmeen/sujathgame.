@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz | FIFA</title>
+	<link rel="shortcut icon" type="image" href="../Pictures/Free_Sample_By_Wix.jpg">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="main.css"
+	
+
+<body id="body">
+    
+   
+    <div id="home-area" class='start-question-box'>
+        <h3>Welcome to the Quiz</h3>
+        <audio controls autoplay>
+            <source src="file:///C:/Users/sujath/Desktop/index.html/waka.mp3" type="audio/ogg">
+            <source src="file:///C:/Users/sujath/Desktop/index.html/waka.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        <br>
+        <p>Total number of Fifa Related questions:<span class='total-questions'>10</span></p>
+       
+        <p>The time will start after you press the start button</p>
+        <p>Good Luck</p> 
+      
+        <button type='button' class='btnn' onclick="showQuestions()">Start</button>
+    </div>
+
+    <p id="time">sujath Game</p>
+
+    <div id="questions-area" hidden>
+
+        <div class='question-box'>
+
+            <p class='question-number'>Question 1 </p>
+            <p class='question'>01.How many times did Brazil won the FIFA World Cup?</p>
+            <input type="radio" class='answer' name="answer1" value="1">2 Times<br>
+            <input type="radio" class='answer' name="answer1" value="2">5 Times<br>
+            <input type="radio" class='answer' name="answer1" value="3">8 Times<br>
+            <input type="radio" class='answer' name="answer1" value="4">6 Times<br>
+        </div>
+
+        <div class='question-box'>
+            <p class='question-number'>Question 2 </p>
+            <p class='question'>02.Which country has won the most fifa World cup?</p>
+            <input type="radio" class='answer' name="answer2" value="1">Portugal<br>
+            <input type="radio" class='answer' name="answer2" value="2">Argentina<br>
+            <input type="radio" class='answer' name="answer2" value="3">Brazil<br>
+            <input type="radio" class='answer' name="answer2" value="4">England<br>
+        </div>
+
+        <div class='question-box'>
+            <p class='question-number'>Question 3 </p>
+            <p class='question'>03.Who has the most goal in fifa history?</p>
+            <input type="radio" class='answer' name="answer3" value="1">Cristiano Ronaldo<br>
+            <input type="radio" class='answer' name="answer3" value="2">Lionel Messi<br>
+            <input type="radio" class='answer' name="answer3" value="3">Neymar JR<br>
+            <input type="radio" class='answer' name="answer3" value="4">Benzima<br>
+        </div>
+
+        <div class='question-box'>
+            <p class='question-number'>Question 4 </p>
+            <p class='question'>04.which country has Scored the most goal in fifa World cup?</p>
+            <input type="radio" class='answer' name="answer4" value="1">Portugal<br>
+            <input type="radio" class='answer' name="answer4" value="2">Argentina<br>
+            <input type="radio" class='answer' name="answer4" value="3">Brazil<br>
+            <input type="radio" class='answer' name="answer4" value="4">England<br>
+        </div>
+
+        <div class='question-box'>
+            <p class='question-number'>Question 5 </p>
+            <p class='question'>05.Who is the only person that has won a World Cup medal 4 times?</p>
+            <input type="radio" class='answer' name="answer5" value="1">Pele<br>
+            <input type="radio" class='answer' name="answer5" value="2">Zagallo<br>
+            <input type="radio" class='answer' name="answer5" value="3">Cruyff<br>
+            <input type="radio" class='answer' name="answer5" value="4">ronaldo<br>
+        </div>
+
+        <div class='question-box'>
+            <p class='question-number'>Question 6 </p>
+            <p class='question'>06. In which year was the football World Cup held for the first time?</p>
+            <input type="radio" class='answer' name="answer6" value="1">1928<br>
+            <input type="radio" class='answer' name="answer6" value="2">1930<br>
+            <input type="radio" class='answer' name="answer6" value="3">1924<br>
+            <input type="radio" class='answer' name="answer6" value="4">1932<br>
+        </div>
+        <div class='question-box'>
+            <p class='question-number'>Question 7 </p>
+            <p class='question'>07.Which country won 2018 football World Cup?</p>
+            <input type="radio" class='answer' name="answer7" value="1">France<br>
+            <input type="radio" class='answer' name="answer7" value="2">crotia<br>
+        </div>
+        <div class='question-box'>
+            <p class='question-number'>Question 8 </p>
+            <p class='question'>08.Which country won the first football World Cup?</p>
+            <input type="radio" class='answer' name="answer8" value="1">Brazil<br>
+            <input type="radio" class='answer' name="answer8" value="2">Germany<br>
+            <input type="radio" class='answer' name="answer8" value="3">Uruguay<br>
+            <input type="radio" class='answer' name="answer8" value="4">Argentina<br>
+        </div>
+        <div class='question-box'>
+            <p class='question-number'>Question 9 </p>
+            <p class='question'>09.In which country is FIFA World Cup 2018 scheduled to be played?</p>
+            <input type="radio" class='answer' name="answer9" value="1">Qatar<br>
+            <input type="radio" class='answer' name="answer9" value="2">Rusia<br>
+            <input type="radio" class='answer' name="answer9" value="3">South Korea<br>
+            <input type="radio" class='answer' name="answer9" value="4">France<br>
+        </div>
+
+        <div class='question-box'>
+            <p class='question-number'>Question 10 </p>
+            <p class='question'>10.Who was selected for the Man of the Match Award in the finals of World Cup 2018?</p>
+            <input type="radio" class='answer' name="answer10" value="1">Antoine Griezman<br>
+            <input type="radio" class='answer' name="answer10" value="2">Kylian Mbappe<br>
+            <input type="radio" class='answer' name="answer10" value="3">Paul Pogba<br>
+            <input type="radio" class='answer' name="answer10" value="4">Raphael Varane<br>
+        </div>
+
+        <div class="question-box">
+            <button type="button" class="btn" id="toTop" onclick="goToTop()">Back to Top</button>
+            <button type="submit" class="btn" onclick="showResults()">Submit</button>
+        </div>
+    </div>
+
+    <div id="results-area" class='results-box' hidden>
+        <h1 class='results'>Results</h1>
+        <p class='total' id='total'></p>
+        <table>
+            <tr>
+                <th>Question Number</th>
+                <th>Correct Answer</th>
+                <th>Your Answer</th>
+            </tr>
+            <tr>
+                <td>Question 01</td>
+                <td>2</td>
+                <td id="q1"></td>
+            </tr>
+            <tr>
+                <td>Question 02</td>
+                <td>3</td>
+                <td id="q2"></td>
+            </tr>
+            <tr>
+                <td>Question 03</td>
+                <td>1</td>
+                <td id="q3"></td>
+            </tr>
+            <tr>
+                <td>Question 04</td>
+                <td>2</td>
+                <td id="q4"></td>
+            </tr>
+            <tr>
+                <td>Question 05</td>
+                <td>2</td>
+                <td id="q5"></td>
+            </tr>
+            <tr>
+                <td>Question 06</td>
+                <td>4</td>
+                <td id="q6"></td>
+            </tr>
+            <tr>
+                <td>Question 07</td>
+                <td>1</td>
+                <td id="q7"></td>
+            </tr>
+            <tr>
+                <td>Question 08</td>
+                <td>3</td>
+                <td id="q8"></td>
+            </tr>
+            <tr>
+                <td>Question 09</td>
+                <td>2</td>
+                <td id="q9"></td>
+            </tr>
+            <tr>
+                <td>Question 10</td>
+                <td>1</td>
+                <td id="q10"></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <script>
+
+        function getRadioValue(radioArray) {
+            var i;
+            for (i = 0; i < radioArray.length; i++) {
+                if (radioArray[i].checked) {
+                    return radioArray[i].value;
+                }
+            }
+            return -1;
+        }
+
+       
+
+        function goToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        let seconds = 60;
+        let timeout;
+        let timer_on;
+        function timedCount() {
+            if (seconds === 0) {
+                document.getElementById("time").innerHTML = "0 : 00";
+                setTimeout();
+            } else {
+                timeout = setTimeout(timedCount, 1000);
+            }
+            if (seconds > 9) {
+                document.getElementById("time").innerHTML = "0 : " + seconds;
+                time = "0 : " + seconds;
+            }
+            else {
+                document.getElementById("time").innerHTML = "0 : 0" + seconds;
+                time = "0 : 0" + seconds;
+            }
+            seconds--;
+
+        }
+        function startCount() {
+            if (!timer_on) {
+                timer_on = 1;
+                if (seconds === 0) {
+                    stopcount();
+                } else {
+                    timedCount();
+                }
+
+            }
+        }
+        function stopcount() {
+            clearTimeout(timeout);
+            timer_on = 0;
+        }
+        function timer() {
+            var setTimer = setInterval(showResults, 60000);
+        }
+
+
+        function reviewAnswers() {
+            var homeBox = document.getElementById("home-area").hidden = true;
+            var questionBox = document.getElementById("questions-area").hidden = false;
+            var resultsBox = document.getElementById("results-area").hidden = true;
+            document.body.style.backgroundColor = "#63656a";
+        }
+
+        function showQuestions() {
+            var homeBox = document.getElementById("home-area").hidden = true;
+            var questionBox = document.getElementById("questions-area").hidden = false;
+            var resultsBox = document.getElementById("results-area").hidden = true;
+            
+            startCount();
+            timer();
+            
+        }
+
+        function showResults() {
+            var homeBox = document.getElementById("home-area").hidden = true;
+            var questionBox = document.getElementById("questions-area").hidden = true;
+            var resultsBox = document.getElementById("results-area").hidden = false;
+            stopcount();
+            var selectedAnswers = [];
+            for (let j = 0; j < 10; j++) {
+                var name = "answer" + (j + 1);
+                var allAnswers = [];
+                allAnswers = document.getElementsByName(name);
+
+                var selectedAnswer = getRadioValue(allAnswers);
+                selectedAnswers[j] = selectedAnswer;
+            }
+
+            let score = 0;
+            const correctAnswers = [2, 3, 1, 3, 2, 4, 1, 3, 2,1];
+            for (let i = 0; i < selectedAnswers.length; i++) {
+                var id = "q" + (i + 1);
+                if (selectedAnswers[i] == correctAnswers[i]) {
+                    score += 2;
+                    document.getElementById(id).innerHTML = "&#10003";
+                } else {
+                    score -= 1;
+                    document.getElementById(id).innerHTML = "&#10060";
+                }
+            }
+
+            document.getElementById("total").innerHTML = "Your score is " + score;
+
+            document.body.style.backgroundColor = "yellow";
+
+            if (score <= 5) 
+            {
+                document.body.style.backgroundColor = "#ff0000";
+            } 
+            else if (score<15){
+                document.body.style.backgroundColor = "#DAE71B";
+            }
+            else if (score >= 15) 
+            {
+                document.body.style.backgroundColor = "#76CBE4";
+            }
+        }
+    </script>
+	
+	<!-- Footer -->
+	
+	
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+::-webkit-scrollbar {display: none;}
+
+#body{
+    background-image: url("file:///C:/Users/sujath/Desktop/HTML/Football-Wallpaper-wide-i.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#time{
+    max-width: 500px;
+    background-color: #EE0F71;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.btnn{
+    max-width: 500px;
+    background-color: #ffdfdf;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+
+
+
+.start-question-box {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 100px;
+    border-radius: 40px;
+    background-color:#F4D03F;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.start-question-box h3 {
+    font-size: 40px;
+    color: #051367;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-align: center;
+   
+}
+
+
+.start-question-box p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.start-question-box p span {
+    font-weight: 600;
+}
+
+.start-question-box .btn {
+    margin-top: 30px;
+}
+
+.btn
+{
+    padding: 16px 27px;
+    background-color: #F43F3F;
+    color:#060505 ;
+    border: none;
+    font-size: 16px;
+    border-radius: 30px;
+
+    
+  }
+    
+
+.question-box{
+    max-width: 700px;
+    background-color: lightgrey;
+    width: 400px;
+    border: 15px solid rgb(0, 128, 6);
+    padding: 30px;
+    margin: 30px;
+    
+
+    
+    
+}
+
+.question-box .question-number{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.952);
+    font-weight: 800;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.question-box .question {
+    font-size: 22px;
+    color: #000000;
+    line-height: 28px;
+    padding: 20px 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.question-box .btn {
+    margin-right: 20px;
+}
+
+.results-box{
+    max-width: 700px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.results-box .results{
+    margin-left: 0px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1167b1;
+}
+
+.results-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.results-box table th, .results-box table td {
+    border: 1px solid #cccccc;
+    padding: 8px 15px;
+    font-weight: 500;
+    color: #000000;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+    
+ 
+}
+.results-box table th{
+    background-color: #04AA6D;
+}
+
+
+.results-box .total {
+    font-weight: 500;
+    font-size: 18px;
+}
+.editpage {
+    position: relative;
+    text-align-last: right;
+    right: 3%;
+    top: 3vh;
+    margin-top: 10px;
+  }
+  
+  .editpage img{
+    position: relative;
+    margin: 0px;
+    text-align-last: right;
+    right: 1%;
+    border-radius: 30px;
+  }
+  
+  
+  .editpage img:hover {
+    opacity: 0.7;
+  }
+
+
